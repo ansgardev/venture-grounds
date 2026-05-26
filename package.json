@@ -1,0 +1,8 @@
+{
+  "name": "venture-grounds-advisor",
+  "version": "1.0.0",
+  "description": "An investor-quality advisor grounded in the Venture Grounds podcast corpus.",
+  "engines": {
+    "node": "20.x"
+  }
+}

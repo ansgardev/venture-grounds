@@ -1,0 +1,1479 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "description": "Structured investor intelligence extracted from Venture Grounds transcripts. Each investor entry captures their firm context, investment thesis, stage focus, sector views, frameworks/mental models, founder evaluation criteria, contrarian takes, and direct quotable positions. This file is the grounded knowledge source for the Venture Grounds Search Engine."
+  },
+  "investors": [
+    {
+      "id": "yoni_rechtman_slow",
+      "name": "Yoni Rechtman",
+      "firm": "Slow Ventures",
+      "role": "Partner (NYC)",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_notes": "Earliest rounds, generalist",
+      "firm_thesis": "Generalist seed and pre-seed fund. Philosophy is to do work that's contrarian or at least non-consensus. The belief: 'you need N-of-one inputs to get N-of-one outputs.' Backs founders to the point of legibility and inevitability.",
+      "sectors_of_focus": [
+        "Hybrid business models (software + services, software + network effects)",
+        "Vertically integrated services with software differentiation",
+        "AI roll-ups / growth buyouts",
+        "Code collaboration and dev infrastructure after AI",
+        "Hiring/HR infrastructure as inbound volume explodes",
+        "Second-order effects of AI broadly"
+      ],
+      "explicit_passes": [
+        "Pure-play SaaS that will see margin compression to 40-60%",
+        "Bessemer-style 'supernovas' with negative gross margins purely pumped by venture dollars",
+        "AI + hardware (interesting but not Slow's lane)"
+      ],
+      "frameworks": [
+        {
+          "name": "Software-plus framework",
+          "description": "Three hybrid models that retain pricing power as AI compresses pure-play SaaS margins: (1) services that differentiate software (forward-deployed model), (2) software that differentiates services (vertically integrated, AI roll-ups), (3) network-effects businesses where single-player tools become multiplayer at scale."
+        },
+        {
+          "name": "Abundance/scarcity inversion",
+          "description": "AI moves us from a world of abundant human attention + scarce production to abundant production + scarce attention. Processes premised on the old equilibrium (job applications, sales outbound, code review) are breaking down. Winners build trust/network/filtering layers."
+        },
+        {
+          "name": "Two stages, not many",
+          "description": "He rejects venture's stage taxonomy. There are only two stages: 'legible' (the market can see it) and 'illegible' (it isn't obvious yet). The investor's job is to fund illegible companies to legibility."
+        },
+        {
+          "name": "Coach decision-making, never decisions",
+          "description": "His role with founders is to improve how they make decisions, not to make decisions for them. 'Here's what you should do' is the worst thing a VC can say."
+        },
+        {
+          "name": "Type 1 vs Type 2 pivot signal",
+          "description": "Healthy pivots are when a founder declares 'I'm doing this.' Unhealthy ones are when they ask 'Can I do this?' or 'Should I?' Asking for permission means low confidence."
+        }
+      ],
+      "founder_evaluation": [
+        "Self-knowledge as the upstream input — can the founder honestly assess what they suck at?",
+        "Looking for 'chip on shoulder' but warns against confusing it with insecurity. Insecurity is the enemy of improvement; real chip = deep desire to get rich + PSD (poor, smart, deep desire).",
+        "It almost doesn't matter what the answer is — what matters is the founder's ability to generate an answer.",
+        "Wants founders with 'big if true vision grounded in deep conviction and earned insight.'",
+        "Founder red flag that's a green flag: 'I don't care what other people think.'",
+        "Wants the slope of improvement, not the current state — 'rarely are we catching people at their most exceptional.'"
+      ],
+      "market_views": [
+        "Pure-play software margins will re-rate to 40-60%, not 80-90%. Many SaaS businesses will simply die.",
+        "Switching costs are collapsing because of agentic tools and standardized chat interfaces. CRMs become invisible if an agent uses them on your behalf.",
+        "Enterprise software future: more use cases, more vendors per use case, faster churning procurement cycles. Land-and-expand-for-years is over.",
+        "If you back AI data center buildout out of GDP numbers, the real economy is in or near recession. Most VCs aren't pricing this in.",
+        "Big-if-true bet: codegen breaks Git. Velocity collapses even as lines of code skyrocket. (He led pre-seed of Atomic on this thesis.)"
+      ],
+      "contrarian_takes": [
+        "Pure-play SaaS is the wrong category to chase in 2025-2026. Most will die or compress.",
+        "VCs don't do anything. 'Find great people, give them money, don't fuck it up. That's it.'",
+        "'There's nothing worse than a credible idiot.' VCs who 'know enough to be dangerous' do real damage.",
+        "Insecurity is bad, even if it looks like ambition. Selecting for chip-on-shoulder often selects for insecurity instead.",
+        "Pivots should be declared, not asked about. Founders who ask permission are signaling low confidence.",
+        "We may be quietly building a more exclusionary economy as trust, taste, and judgment become the real scarcities."
+      ],
+      "pet_topics": [
+        "What gets fucked up and has to be rebuilt because of AI",
+        "Second-order effects of AI in 2026",
+        "Network/marketplace dynamics emerging from prosumer AI tools",
+        "Forward-deployed engineering and services-as-moat"
+      ],
+      "named_companies_and_positions": [
+        "Atomic — led pre-seed. Founder Lee, ex-Git core contributor / GitLab / GitHub. Thesis: codegen breaks Git.",
+        "Figma — public example of margin compression from rolling out AI (Figma Make eating token cost).",
+        "Bessemer — credited with the 'supernovas' framing for AI companies with negative gross margins."
+      ],
+      "quotable_positions": [
+        "You need N-of-one inputs to get N-of-one outputs.",
+        "I want to coach on decision-making, never on decisions.",
+        "There's nothing worse than a credible idiot.",
+        "VCs don't do anything. We give you money. It's the simplest business in the entire world. Find great people, give them money, don't fuck it up.",
+        "Pure-play software will see a re-rating down to 40 to 60 percent margins.",
+        "Self-knowledge is upstream of improvement.",
+        "Big if true vision grounded in deep conviction and earned insight."
+      ]
+    },
+    {
+      "id": "morgan_blumberg_m13",
+      "name": "Morgan Blumberg",
+      "firm": "M13",
+      "role": "Partner",
+      "stage": [
+        "pre-seed",
+        "seed",
+        "Series A",
+        "Series B"
+      ],
+      "check_size_notes": "$1M to $20M",
+      "firm_thesis": "Early-stage fund with heavy platform support model. Most of M13's staff focuses on operator support (branding, comms, product, data, hiring). Eight investors deploy capital; the rest is operating teams who get hands-dirty with portfolio companies.",
+      "sectors_of_focus": [
+        "Workflow automation",
+        "Healthcare investing (especially patient engagement, EMR, home health, temp staffing)",
+        "Insurance (asset-light underwriting, franchise-model insurtech)",
+        "Government/regulated markets (911, local government)",
+        "AI advertising and the contextual ad infrastructure layer",
+        "Legacy/boring industries adopting AI automation"
+      ],
+      "explicit_passes": [
+        "Founder-investor mismatches even if the company is strong — will refer to others",
+        "GEO/AI-ad startups at the application layer where products are commoditized (preferred infrastructure-layer plays like context.ai)",
+        "Most agentic workflow demos that haven't grappled with people-change and legacy integration"
+      ],
+      "frameworks": [
+        {
+          "name": "Climb-the-mountain moat (regulated markets)",
+          "description": "Regulated markets slow you down for years — compliance, brand, trust — but once at the top, you have a moat because everyone else has to climb the same mountain. Brand and reputation become the defensible asset."
+        },
+        {
+          "name": "Geographic density flywheel",
+          "description": "In government/community sales, hyper-concentrated state-level density creates network effects (constituents move between jurisdictions, word of mouth). What looks like 'only in one market' at seed is the moat. Replicate state by state."
+        },
+        {
+          "name": "Embedded partnership as distribution",
+          "description": "Strategic partnerships work via depth of execution, not announcement. Best example: Epic + Abridge in healthcare. Plug into existing systems of record/BPOs for credibility, logos, and brand."
+        },
+        {
+          "name": "Soft moat via deep domain expertise",
+          "description": "In boring/legacy markets, the moat is the founder's depth of relationships and understanding of customer pain. Backs operator-founders who lived the problem (e.g., Radiant Graph — founder previously ran AI at Teladoc/Livongo)."
+        },
+        {
+          "name": "Supercharge-not-replace narrative",
+          "description": "Successful AI automation in legacy industries reframes the buyer (worker) as supercharged, not replaced. Aligns incentives so the worker earns more on volume. Critical in temp staffing, home health, government, recruiting."
+        },
+        {
+          "name": "Asset-light + franchise stack (insurance/healthcare/staffing)",
+          "description": "Productize tech, then enable others to run a business on it. Neptune Flood ($3-4B insurer with 58 employees) and Goose Head Insurance ($9B with franchise model) as exemplars. Looking for this pattern across healthcare/staffing/insurance."
+        }
+      ],
+      "founder_evaluation": [
+        "Founder-investor fit is the one thing she won't compromise on — these are decade-long relationships. Will refer founders to others if not a fit.",
+        "Depth of understanding of the market — has the founder spent two years researching, or are they operator-founders who lived the problem?",
+        "Ability to talk to and convince buyers in industries that don't typically buy software — the empathy + transformation skill in legacy sectors.",
+        "Stubbornness + creativity — 'run through walls' founders who'll survive 5-10 years until the market catches up (cited Canvas Medical as exemplar — 10 years of building until AI made customized EMRs valuable).",
+        "Signals of competitive instinct from earlier life: competitive athletes, academic competitors, side hustles that made real money — 'do they want to win, do they want to make money.'",
+        "Second-time founders get extra weight if they came back to do something harder.",
+        "Red-flag-as-green-flag: overconfidence, once validated by the market, becomes magnetic."
+      ],
+      "market_views": [
+        "Contracted ARR is misleading at A/B — signals demand exists, not that the team can execute implementation at scale. 'A is the new seed' compresses your window to see real usage data.",
+        "Fundraising creates winners now. Right-time-right-place + a war chest can crown winners on momentum alone in this market. Confidence from a big raise opens a million doors regardless of underlying product/founder quality.",
+        "Overfunding the market is the biggest risk VCs are sleepwalking past. Capital flooding the founder pool drains talent from the best companies — top engineers are starting their own labs instead of joining yours.",
+        "Going one layer deeper in the stack — Context.ai going for the infrastructure of generative-search advertising rather than competing in GEO at the application layer.",
+        "Legacy integration (no APIs, messy schemas) is the unsexy moat in agentic workflow companies."
+      ],
+      "contrarian_takes": [
+        "The number one attribute a founder needs in this market is being a good fundraiser. Capital + confidence creates the winner, regardless of product.",
+        "It's okay to give up — not everyone is meant to be a founder, and accelerators give people too easy an option to try.",
+        "Asset-light insurance/staffing/healthcare with franchise distribution is wildly underbuilt in startups despite massive public-comp exemplars.",
+        "Boring, regulated, slow markets are where the durable companies get built — Silicon Valley undervalues them because the slope to traction is years not months."
+      ],
+      "pet_topics": [
+        "Asset-light franchise tech stacks for regulated/legacy industries",
+        "AI advertising infrastructure (vs. application-layer GEO)",
+        "Patient engagement and AI in health insurance back-offices",
+        "Whether fundraising itself creates winners"
+      ],
+      "named_companies_and_positions": [
+        "Context.ai — backed for infrastructure-layer contextual ads in generative search/chat",
+        "Radiant Graph — patient engagement automation; operator-founder who ran AI at Teladoc/Livongo/Ginger",
+        "Polymorphic — local government, geographic-density flywheel",
+        "Prepared 911 — 911 centers, climb-the-mountain regulated moat",
+        "Canvas Medical — developer-first EMR; 10-year grind paying off as AI made customized EMRs valuable",
+        "Neptune Flood — public asset-light flood insurance; cited as inspiration ($3-4B, 58 employees)",
+        "Goose Head Insurance — public ~$9B franchise-model insurer; the franchise tech model she's looking for in startups"
+      ],
+      "quotable_positions": [
+        "There's somewhat of a moat once you make it to the top of the mountain, because everybody else has to climb that same mountain.",
+        "Maybe the number one attribute you need is being a good fundraiser.",
+        "Overfunding the market with a bunch of companies actually drains the talent that you need for your best companies to be successful.",
+        "We want people who are extremely close to their customer.",
+        "It's okay to give up — not everyone is meant to be a founder.",
+        "Going one layer deeper in the stack — straight to the heart of the problem."
+      ]
+    },
+    {
+      "id": "will_lerer_hippeau",
+      "name": "Will McKelvey",
+      "firm": "Lerer Hippeau",
+      "role": "Investor",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_notes": "Ninth fund, $200M, pre-seed and seed only. Generalist.",
+      "firm_thesis": "15-year-old generalist NYC fund. Founder-first, not thesis-driven. The best venture funds have higher loss ratios than mediocre ones — they find huge outliers by going to outlier places.",
+      "sectors_of_focus": [
+        "Founders with earned insight from any background",
+        "Cameras and sensors (every surface as 'real estate'; earn the right to sit on it)",
+        "Voice as a modality (rethought from skepticism)",
+        "Religion and identity-based consumer apps (Hallow, Creed)",
+        "Hardware-anywhere companies (American Dynamism) — Detroit, Austin, El Segundo",
+        "Wave-two AI application layer (next 5-8 years, not just SF)"
+      ],
+      "explicit_passes": [
+        "Pure-play consumer AI application layers (OpenAI/Gemini will eat them)",
+        "Central-casting Stanford founders following the well-worn YC path",
+        "Founders solving problems they noticed from outside without going unreasonably deep"
+      ],
+      "frameworks": [
+        {
+          "name": "Unreasonably deep earned insight",
+          "description": "The bar at idea stage: did the founder go unreasonably deep? Whether they lived it or studied it (cited a vertical SaaS founder reading dental handbooks before building 12 for dental). 'Skeletons in history of people who thought things could be done better without understanding how they worked.'"
+        },
+        {
+          "name": "Pace as the only advantage",
+          "description": "An early-stage founder is disadvantaged in every respect — customers, competitors — except pace. Look for founders who decide on the fastest way to find an answer, not the safest one."
+        },
+        {
+          "name": "The 65% rule (intro emails)",
+          "description": "VCs construct 65% of their opinion of a founder before the first meeting, from three things in the intro email: who is the sender, what did they say about you, what does Claude already know about you. Coherence of the story matters."
+        },
+        {
+          "name": "Earn the right on hardware real estate",
+          "description": "Hardware companies must earn the right to sit on the user's real estate by delivering immediate short-term value, then collect medium-term data, then capture long-term proprietary data for downstream model training (Moto: cameras on retail employee badges)."
+        },
+        {
+          "name": "Religion as a product playbook",
+          "description": "The three components of religious belonging — community/ritual, identity, spiritual guidance — are an underbuilt product playbook. Soul Cycle has 2/3, politics has 2/3. Build for all three. 60% of the US is Christian; market is massive."
+        }
+      ],
+      "founder_evaluation": [
+        "Have they been performant — track record of doing what they did really well, wherever they did it.",
+        "Speed and pace at hard work, not just emails.",
+        "Depth across the board — same depth in market understanding, hiring, sales motion.",
+        "Need to be fighting demons, not just intellectually curious. 'It's gotta be bigger than you.'",
+        "Founders who turn down a well-worn path (skipped college after a crypto win) signal contrarianism more than another Stanford grad.",
+        "Founder + idea fit: a robotics person pivoting to payment software is a stretch — story should cohere."
+      ],
+      "market_views": [
+        "Stanford is now the least interesting place to start a company — following a well-worn path is the new conformist move.",
+        "Talent market is fucked: every YC batch takes ~200 quality founding engineers off the market. Series A companies can't hire because would-be employees raised $3M rounds.",
+        "OpenAI will eat consumer AI application-layer startups. Bearish on point solutions there.",
+        "Wave 2 of AI application layer will be built outside SF — domain knowledge + embedding into the user matters more than technical talent in five years.",
+        "Voice as a modality flipped from no to yes — recursive typing for human composition, voice for AI prompting."
+      ],
+      "contrarian_takes": [
+        "Stanford founders are not contrarian anymore — that's now the well-worn safe path.",
+        "Religion is a huge underbuilt market and the secularization decline has stopped/reversed in the West.",
+        "Give away more equity than you're comfortable with to early hires in this hiring market (cited Vinod Khosla on Sun Microsystems).",
+        "The next Sam Altman probably isn't in college at all."
+      ],
+      "pet_topics": [
+        "Cameras + sensors as moats and data flywheels",
+        "Religion/identity consumer apps",
+        "American Dynamism, hardware-rich geographies",
+        "Voice modality"
+      ],
+      "named_companies_and_positions": [
+        "12 (dental) — vertical SaaS founder who read dentistry handbooks before building",
+        "Moto — name-badge cameras for retail/grocery; flagship 'earn the real estate' case",
+        "Iron Site — hard-hat cameras for construction",
+        "Hallow — Catholic prayer app, $100M+ ARR; flagship religion-as-platform proof",
+        "Creed (Speed Run) — another religion app he tracks",
+        "Knox (YC) — Detroit-based sheet metal disruption"
+      ],
+      "quotable_positions": [
+        "You are what you do repeatedly.",
+        "Stanford is the least interesting place for someone to go and build a company.",
+        "Every year Y Combinator takes 200 quality founding engineers off the market.",
+        "I'm bearish on pure-play consumer application layers with AI.",
+        "You earn the right to sit on someone's real estate by delivering short-term value, then capture medium and long-term data.",
+        "Get attention with trust attached, or it's not worth it.",
+        "It's gotta be bigger than you. You've gotta be fighting demons."
+      ]
+    },
+    {
+      "id": "gabby_lorenzi_primary",
+      "name": "Gabby Lorenzi",
+      "firm": "Primary Venture Partners",
+      "role": "Investor (Infrastructure)",
+      "stage": [
+        "seed"
+      ],
+      "check_size_notes": "Lead seed rounds. New York's biggest seed fund. Fund IV.",
+      "firm_thesis": "NYC's biggest seed fund, decade-old, lead seed rounds. Heavy operational team (recruiting hired 150+ into portfolio last year; go-to-market team generates millions in pipeline). Underwrites to Series A.",
+      "sectors_of_focus": [
+        "Infrastructure (her personal focus, ex-data scientist)",
+        "Semiconductors (tailwinds of reshoring + national security)",
+        "Industrials, healthcare, FinTech (full Primary coverage)",
+        "Vertical AI at application layer (compounded learnings from end customer)",
+        "Consumer hardware (next iPhone-scale moment with AI in small form factors)"
+      ],
+      "explicit_passes": [
+        "Founders who can't sell the vision to different personas (3rd grader, investor, hire)",
+        "Founders 'boiling the ocean' — multiple customer segments without core focus"
+      ],
+      "frameworks": [
+        {
+          "name": "Chess CEO",
+          "description": "Early-stage CEO must play chess — operate simultaneously at 30,000 feet (where could the market go) and in the meeting they're in now. Signal: can they explain the vision to a podcast host, a third-grader, an investor, and a growth-stage investor and have it land each time."
+        },
+        {
+          "name": "Talent magnet model",
+          "description": "Best founders treat hiring as a brand problem. Three layers: referral-friends, then the top seller at the competitor, then the top BizOps person at Google/Anthropic. Pushing past the referral radius is the separator."
+        },
+        {
+          "name": "Innovator's dilemma + tailwinds (incumbent strategy)",
+          "description": "To beat duopoly incumbents (NVIDIA/AMD, Cadence/Synopsys), find: (a) a tailwind they can ride (e.g., reshoring, national security, AI demand), and (b) a decision the incumbent can't make without cannibalizing core revenue. Speed alone is not the strategy."
+        },
+        {
+          "name": "Earned insight via domain OR customer obsession",
+          "description": "Two valid paths to earned insight: (1) operator-founder who lived the pain, (2) fresh founder who joined customer Slack groups, shadowed users, became part of their world for years. Customer obsession is the substitute for direct domain experience."
+        },
+        {
+          "name": "Focus over feature parity",
+          "description": "Startups beat incumbents by focusing on one thing exceptionally well — Etched (semiconductors) cited as the case study. Multi-segment revenue at seed can be a sign of insufficient focus."
+        },
+        {
+          "name": "Invest in brand and marketing at seed",
+          "description": "Brand never appears on the seed-stage use-of-funds slide and it should. Distribution and narrative ownership are the lever — go beyond logo and website to storytelling, presence at the right conferences, sales collateral."
+        }
+      ],
+      "founder_evaluation": [
+        "Can the founder operate at 30,000 feet and tactically in the same hour?",
+        "Can they sell the vision across personas?",
+        "Real customer obsession: not the buzzword. Can they articulate what gets the customer promoted, what's on the customer's roadmap?",
+        "Will they invest in brand at seed? The willingness to spend time on narrative is a signal of long-term vision."
+      ],
+      "market_views": [
+        "Agent infrastructure is too early — like Datadog needing apps to monitor before it could exist, we need large-scale agent deployments before new infra paradigms appear.",
+        "Domain expertise no longer a hard prerequisite — AI lets fresh founders learn, iterate, and catch up faster than ever.",
+        "Consumer hardware moment is real — wearables, robotics, on-device models. First time since iPhone.",
+        "Semiconductor opportunity right now is reshoring + national security tailwinds + AI demand — startups can credibly compete with duopolies."
+      ],
+      "contrarian_takes": [
+        "Domain expert founders aren't the only winners — fresh-perspective founders who obsess over the customer can match them.",
+        "Brand and marketing belong on the seed deck's use-of-funds slide.",
+        "Multi-segment revenue at seed is often a focus problem, not a market problem.",
+        "Agent infrastructure is too early — investors are too eager."
+      ],
+      "pet_topics": [
+        "Semiconductor startups in the duopoly age",
+        "Brand and storytelling as a moat",
+        "Vertical AI and compounded customer learnings",
+        "Consumer hardware and wearables"
+      ],
+      "named_companies_and_positions": [
+        "Etched — $120M Series A, semiconductor founders who weren't from the industry but hired the credibility around the talent + executed on focus",
+        "Neo (consumer robotics) — flagged as proof of consumer shift in robotics",
+        "Sunday Robotics — same"
+      ],
+      "quotable_positions": [
+        "Early-stage CEO is a lot like playing a game of chess.",
+        "Focus can really win, even in markets where you're dealing with really scary incumbents.",
+        "Selling stock to investors, to your team, to the market — that's the CEO job.",
+        "Agent infrastructure is too early."
+      ]
+    },
+    {
+      "id": "jack_mcclelland_afore",
+      "name": "Jack McClelland",
+      "firm": "Afore Capital",
+      "role": "Investor",
+      "stage": [
+        "pre-seed",
+        "pre-idea"
+      ],
+      "check_size_notes": "$185M fund. Pre-seed and pre-idea (Founder-in-Residence program).",
+      "firm_thesis": "Pre-seed only, software-focused. Pioneered the Pre-Seed 1.0 category in 2016; now defining Pre-Seed 2.0: invest in people before idea/team/quit-job. People-first investing. Founder-in-Residence program is the operationalization.",
+      "sectors_of_focus": [
+        "Hyperscaler-customer companies (data curation for foundation models, then Act 2)",
+        "Younger founders / students at the cutting edge of model releases",
+        "Niche vertical/B2B SaaS where founders have an unusual edge (family in the industry, esoteric rabbit hole)",
+        "Consumer AI built by AI researchers (not the side-business-in-high-school archetype)",
+        "Conversational AI"
+      ],
+      "explicit_passes": [
+        "Founders who polish every answer rather than say something distinctive",
+        "Founders with taste but no aggression — 'artists and philosophers, not company builders'"
+      ],
+      "frameworks": [
+        {
+          "name": "Pre-Seed 2.0",
+          "description": "Pre-Seed 1.0 was 'invest before traction, after team and idea.' Pre-Seed 2.0 is 'invest before team, before idea, before quitting the job.' Help find co-founders, refine ideas, work out of the office. People-first."
+        },
+        {
+          "name": "Taste in ideas + focused aggression",
+          "description": "Derek's framework from Afore. Taste = consistently generating ideas that could actually work. Focused aggression = execution against the one biggest assumption. Both required — taste alone produces artists, aggression alone produces noise."
+        },
+        {
+          "name": "Test the #1 biggest assumption",
+          "description": "Founders don't need universal early traction goals. Identify the single biggest assumption your company depends on, then go aggressively at testing that and only that. For B2B SaaS, that's often 30-50 customer conversations; for dev tools, you may be your own user; for consumer, build prototype and test retention."
+        },
+        {
+          "name": "Hyperscaler sell + Act 2",
+          "description": "Selling data labeling or RL environments into foundation model companies (e.g., Mercor, DataCurve archetype) gets you to quick revenue. But you need an Act 2 — when their needs evolve, what's the next product? The talent network or asset you've built becomes the platform."
+        },
+        {
+          "name": "Attention + trust",
+          "description": "Attention without trust is fragile — controversial content can sustain a 10% conversion course business, but won't survive pivots. Build trust alongside attention so users follow you when the company changes shape."
+        }
+      ],
+      "founder_evaluation": [
+        "Mindset commitment to founding — anyone can start a side project; founders go 'all in' and 'focused aggression.'",
+        "Standout signal in application: the founder market fit ones with specific scars (e.g., Uber Eats data scientist who started a restaurant in India, then built restaurant software).",
+        "Focused aggression even in quiet engineers — physical post-its everywhere, deep work.",
+        "Hooks at the very start of any interaction — captures attention quickly."
+      ],
+      "market_views": [
+        "Most consumer AI will be built by AI researchers, not the typical operator-founder archetype.",
+        "Founders may barbell their funding: pre-seed → skip seed → growth-stage round when product is working and they need a war chest.",
+        "Trust is becoming as important as attention — pivots break if your brand is only controversy.",
+        "Younger founders / students have structural advantages now: lower build cost, better networks, less risk to drop out."
+      ],
+      "contrarian_takes": [
+        "Bet on people before idea, before team, before they've quit.",
+        "Some of the best consumer AI companies will be built by serious AI researchers, not consumer-founder archetypes.",
+        "Founders should expect to barbell: small pre-seed, then skip seed, then large growth round once working.",
+        "Niche vertical SaaS picked by an obsessed student is a very strong founder archetype because it implies a 'secret.'"
+      ],
+      "pet_topics": [
+        "Student/young founders",
+        "AI-researcher consumer products",
+        "Founder market fit via obsession or family-business secret",
+        "Founder-in-Residence program design"
+      ],
+      "named_companies_and_positions": [
+        "AutoMax — student founder whose family was in real estate appraisal; spun out tech-enabled appraiser business",
+        "Colin (his current roommate) — AI researcher building conversational AI product/lab; Afore-backed",
+        "DataCurve archetype — sells data to foundation model companies, has 'Act 2' optionality"
+      ],
+      "quotable_positions": [
+        "Taste in ideas plus focused aggression.",
+        "You have to be willing to say something unique — people that catch attention and hold it.",
+        "Get attention with trust attached, or it's almost not worth it.",
+        "Test the #1 biggest assumption first; everything else is a distraction."
+      ]
+    },
+    {
+      "id": "tony_signalfire",
+      "name": "Tony Pezzullo",
+      "firm": "SignalFire",
+      "role": "Partner (NYC)",
+      "stage": [
+        "pre-seed",
+        "seed",
+        "Series A",
+        "Series B",
+        "Series C"
+      ],
+      "check_size_notes": "$3B AUM, multi-stage, lead rounds at pre-seed through Series C.",
+      "firm_thesis": "Multi-stage AI-first firm built around Beacon — proprietary data platform that tracks engineering talent globally to source founders and help portfolio companies recruit. Heavy applied-AI focus across healthcare, FinTech, legal services, and trades.",
+      "sectors_of_focus": [
+        "Applied AI in healthcare, FinTech, legal services, trades",
+        "Anywhere labor markets are being transformed",
+        "Workflow software with deep data-loop access into enterprise customers",
+        "Reduced-friction B2B sales infrastructure (trust centers, RFP automation, implementation acceleration)"
+      ],
+      "explicit_passes": [
+        "Data-moat narratives at Series A — they no longer exist",
+        "Pure model-layer plays (never SignalFire's lane)",
+        "Companies whose customer base is mostly other YC/overfunded startups — venture-squared revenue"
+      ],
+      "frameworks": [
+        {
+          "name": "Series A readiness — homogeneous use case",
+          "description": "The signal isn't revenue or logos — it's multiple customers using the product for the same use case. For healthcare, 3 health systems on similar pain points. For trades, a few dozen. Demonstrates real PMF, not isolated sales."
+        },
+        {
+          "name": "Talent funnel readiness at Series A",
+          "description": "Equal in weight to customer signal. Two co-founders with no team can't pass. Have they brought in an A-plus leader? Do they understand the talent funnel? More predictive of company success than product."
+        },
+        {
+          "name": "Data moats don't exist at Series A",
+          "description": "Contrarian view: at Series A, data moats don't exist, differentiation barely exists. What matters is pace of execution and the ability to recruit a talent magnet. Real data loops only emerge after deep enterprise integration."
+        },
+        {
+          "name": "Compressed B2B buying cycle",
+          "description": "ChatGPT + LLM search + trust centers are collapsing the multi-decade compression of B2B buying. Buyers arrive 'ready to transact' — sellers must reduce friction in everything (RFP, security review, implementation). Implementation/time-to-value becomes the differentiator."
+        },
+        {
+          "name": "Venture squared",
+          "description": "Companies selling primarily to other YC/overfunded startups create artificial NDR from customers' own scaling. Double exposure to a fundability bubble. Scrutinize WHO the customers are, not just the growth graph."
+        }
+      ],
+      "founder_evaluation": [
+        "Killer instinct to sell into and embed in enterprise (sell down to the IC level to generate true data loops).",
+        "Pace of execution + demonstrated talent funnel as the durable Series A advantage.",
+        "Industry expertise OR pure execution intensity that gets to enterprise deployment fast."
+      ],
+      "market_views": [
+        "Consensus AI categories (model labs, Palantir/OpenAI/Scale-pedigreed founders) get funded almost before product exists — non-consensus founders face a long slog.",
+        "Owning the customer + deep workflow understanding wins against the model layer (Palantir-style).",
+        "The future is agent-to-agent commerce in B2B, but it requires standards for verifying outcome claims; not in next 5 years.",
+        "B2B sellers need to move from 'connect with person → close → implement' to 'time-to-value' obsession."
+      ],
+      "contrarian_takes": [
+        "Data moats don't exist at Series A.",
+        "Venture-squared exposure is the biggest underpriced risk.",
+        "NYC's finance/law 9-9-6 culture means founders here don't need to relocate to SF for grind."
+      ],
+      "pet_topics": [
+        "Applied AI talent loops via Beacon",
+        "B2B buying cycle compression and frictionless commerce",
+        "Venture-squared revenue exposure",
+        "Talent retention via culture (Tawni Cranz / Netflix culture deck heritage)"
+      ],
+      "named_companies_and_positions": [
+        "Conveyor — automating RFP completion for B2B",
+        "Cursor & Windsurf — referenced as PLG data-loop archetypes for coding"
+      ],
+      "quotable_positions": [
+        "Data moats effectively don't exist at Series A.",
+        "You have venture-squared impact — double exposure to something we're not sure there's underlying demand for.",
+        "It's about pace of execution and being a talent magnet.",
+        "Time-to-value is the new differentiator in enterprise sales."
+      ]
+    },
+    {
+      "id": "christine_kung_j2",
+      "name": "Christine Keung",
+      "firm": "J2 Ventures (incl. Brookhaven fund)",
+      "role": "General Partner",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_notes": "Manages ~$700M total. Brookhaven is $250M, just deploying. Early-stage dual-use technology.",
+      "firm_thesis": "Early-stage dual-use technology investor — companies that serve both commercial AND government applications. Portfolio split across telecom, healthcare, cybersecurity, advanced computing. Government adoption signals credibility AND product maturity.",
+      "sectors_of_focus": [
+        "Defense tech and dual-use technology",
+        "Cybersecurity (especially community-built, services-first)",
+        "Telecom",
+        "Healthcare (dual-use)",
+        "Advanced computing"
+      ],
+      "explicit_passes": [
+        "Founders chasing 'sell to government' as a late-stage strategy (post-IPO + ex-Congress hire). Wrong frame.",
+        "Marketplace-archetype founder pattern matching (Travis Kalanick/Adam Neumann clones) — outdated"
+      ],
+      "frameworks": [
+        {
+          "name": "Dual-use is now commercial-first",
+          "description": "Cold War dual-use meant DOD-incubated tech licensed to commercial use. Today's dual-use is the inverse: private sector is the better incubator, with DOD as a high-credibility early customer. DOD procurement now intermediates the primes (Scale AI, SpaceX as new defense primes within a decade)."
+        },
+        {
+          "name": "Government as early customer, not late hire",
+          "description": "Selling to government should happen in year 1-2, not post-IPO with a former congressman. For dual-use and deep tech, having the government as an early partner is game-changing for credibility, non-dilutive capital, and product maturity."
+        },
+        {
+          "name": "Demand-side diligence over historical market sizing",
+          "description": "She is shifting from historical market data + comps to actually diligencing demand growth — sitting with the biggest buyers and asking 'how much more do you want to buy year-over-year.' Markets are too volatile for backward-looking sizing."
+        },
+        {
+          "name": "Founder predestination (Edwin Chen / Surge AI framing)",
+          "description": "Beyond 'founder-market fit' — the best entrepreneurs feel like they're fulfilling a destiny. Nobody else could build the company the way they envision. Quoted Surge AI's Edwin Chen as the influence. Replaces persona archetypes."
+        },
+        {
+          "name": "Services-first → product-first community moat (Unit 221B case)",
+          "description": "Some security companies should be services-first for 10 years to build community trust BEFORE raising venture. Trust + curated open-source researcher network becomes uncopyable, then commercialize the data layer once defensible."
+        }
+      ],
+      "founder_evaluation": [
+        "Personality + track record + orientation matched to what they're trying to do — not red-flag hunting.",
+        "Predestination test — does it feel like this is the company they were destined to build?",
+        "For dual-use specifically: ethos and credibility within the relevant community matter more than commercial experience.",
+        "Founders who built community before raising venture (especially in security)."
+      ],
+      "market_views": [
+        "Historic levels of venture capital ($1.2T AUM) + record DOD budget ($800B+) — but private markets may not allocate efficiently. She is becoming an optimist (demand growth can outrun the bubble), but valuations are creeping up.",
+        "1/3 of US labor force is now self-employed/fractional — startup creation is structurally elevated.",
+        "Median Series A is $12M — what Series B was 10 years ago. Cost of building has collapsed in parallel.",
+        "Dual-use went from Google Walkout-era taboo (2016) to Andreessen's $15B defense fund in ~10 years."
+      ],
+      "contrarian_takes": [
+        "Government as early customer, not late-stage hire.",
+        "Demand-side diligence (talking to buyers about appetite) beats historical market sizing.",
+        "Founder predestination is a better frame than founder-market fit.",
+        "Security companies should sometimes stay services-first for a decade before commercializing."
+      ],
+      "pet_topics": [
+        "Dual-use as commercial-first thesis",
+        "Founder predestination",
+        "Community-built moats (Unit 221B case)",
+        "Whether private markets can efficiently allocate $1.2T"
+      ],
+      "named_companies_and_positions": [
+        "Unit 221B — 10-year services-first cybersecurity firm with global researcher community; J2 portfolio. 'Delta Force of Cybersecurity.' Caught Scattered Spider, Snowflake/MGM/PayPal hack actors. Customers include 50+ Fortune 500 and DOD/Cyber Command.",
+        "Surge AI (Edwin Chen) — cited as inspiration for founder predestination thesis; competes with Scale by paying expert labelers, not low-cost labor",
+        "Anthropic ($15B defense fund cited as a marker of dual-use mainstreaming)"
+      ],
+      "quotable_positions": [
+        "The best entrepreneurs are the ones when they go out and build the company, it feels like they are fulfilling a destiny.",
+        "Government adoption signals credibility and product maturity.",
+        "I used to spend a lot of time trying to diligence the market — now I'm diligencing demand growth.",
+        "The DOD was one of the best venture incubators of all time."
+      ]
+    },
+    {
+      "id": "lexi_burbey_sound",
+      "name": "Lexi Burbey",
+      "firm": "Sound Ventures",
+      "role": "Investor",
+      "stage": [
+        "Series A",
+        "Series B"
+      ],
+      "check_size_notes": "Primarily leading or co-leading Series A and B, $5-25M+ checks.",
+      "firm_thesis": "15-year-old firm (Ashton Kutcher co-founded). Quiet leader investing 'at the edge' — historically helps founders with narrative and being in the spotlight. Made big bets on OpenAI and Anthropic at the model layer. Now expanding to AI app layer category leaders.",
+      "sectors_of_focus": [
+        "AI app layer category leaders (future Ubers, Lyfts, Spotifys, Pinterests)",
+        "AI-enabled services (operations, market research, cybersecurity)",
+        "Boring physical-world industries (aerospace, manufacturing, construction, energy)",
+        "Power generation / fission / SMRs (energy gap is the next constraint)",
+        "AI-native verticals built ground-up (not retrofit roll-ups)"
+      ],
+      "explicit_passes": [
+        "Founders who give polished narratives rather than scars and bad stories",
+        "Pure technical moats (essentially none exist)",
+        "Roll-up strategies that lose the original team and tribal customer knowledge",
+        "Founders who ignore patterned customer feedback without exceptional intuition"
+      ],
+      "frameworks": [
+        {
+          "name": "Scars over narrative",
+          "description": "Critical founder test: ask 'what keeps you up at night.' Founders who can give scars, bad stories, and honest unknowns provide better diligence material than those who give a polished narrative. The willingness to say 'I don't know' is a green flag."
+        },
+        {
+          "name": "Convergence vs parallel-path AI services",
+          "description": "Most investors assume full AI convergence (humans out of the loop). Lexi sees a longer-than-expected parallel path. AI-enabled services that augment workers (not replace) are the underbet category — across cybersecurity, ops, market research."
+        },
+        {
+          "name": "Roll-up risk: losing tribal knowledge",
+          "description": "Roll-up strategies often fail because they retire the original team along with tribal customer knowledge and relationships. AI-native-from-day-one services companies often beat retrofitted roll-ups."
+        },
+        {
+          "name": "Emotional moat + things-that-don't-scale",
+          "description": "No real technical moats anymore at the AI app layer. The durable moats are: (1) implementation/education quality, (2) emotional ties to customers, (3) distribution and narrative-craft, (4) B2B companies behaving like B2C with creative out-of-home and customer elevation."
+        },
+        {
+          "name": "Hard hats not hoodies",
+          "description": "Tectonic-shift industries (aerospace, manufacturing, construction, energy) — boring on the outside, largest sectors in the economy. AI's effect goes from incremental (5-20%) in tech to exponential when applied to pen-and-paper baselines with labor shortages."
+        },
+        {
+          "name": "Pattern recognition is dead",
+          "description": "She's rethought reliance on team/structure pattern matching — new companies are organizing differently, building differently, creating cultures unlike anything before. Old VC pattern recognition no longer works."
+        }
+      ],
+      "founder_evaluation": [
+        "Willingness to tell the bad stories and scars.",
+        "Customer empathy bordering on having-been-in-their-shoes; can articulate minute-to-minute workflows.",
+        "Response to patterned customer feedback: incorporate it OR have exceptional product intuition that anticipated it.",
+        "Storytelling and narrative-craft — the real distribution moat now."
+      ],
+      "market_views": [
+        "No technical moat at the AI app layer. Moats now: implementation, education, emotional connection, distribution, narrative.",
+        "Boring physical-world industries are the next 20-year opportunity.",
+        "Energy/power is the biggest under-attended risk in venture — SMRs and fission especially.",
+        "Pattern recognition no longer works — paradigms are too new."
+      ],
+      "contrarian_takes": [
+        "AI services with humans in the loop (not full convergence) is the real category over the next decade.",
+        "VC's services-are-bad-because-margins dogma is wrong in the AI era.",
+        "Boring physical-world investments will outperform AI app over 20 years.",
+        "Pattern recognition is no longer a useful heuristic."
+      ],
+      "pet_topics": [
+        "Hard-hats-not-hoodies investing",
+        "Energy / fission / SMRs",
+        "AI-enabled services",
+        "Narrative and storytelling as distribution"
+      ],
+      "named_companies_and_positions": [
+        "Day.ai — CRM rebuild led by ex-HubSpot CPO Christopher O'Donnell. Co-invested with Sequoia. AI-native, requires zero integration.",
+        "Warp — payroll-space founder who learned the market deeply without lived experience"
+      ],
+      "quotable_positions": [
+        "What I'm always looking for is a founder that's willing to tell me the scars and the bad stories.",
+        "It's more hard hats than hoodies.",
+        "There's no better moat than an emotional one.",
+        "If venture investors are not thinking about the power gap right now, they're missing the mark.",
+        "Anybody who tries to tell you what to do is doing more than what their role would suggest."
+      ]
+    },
+    {
+      "id": "jc_btv",
+      "name": "JC Bahr-de Stefano",
+      "firm": "Better Tomorrow Ventures",
+      "role": "Partner",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_notes": "$500K-$4M lead checks. FinTech-focused.",
+      "firm_thesis": "FinTech-only fund. Every investor on the team has founded or operated in fintech (NerdWallet co-founder, payments founder, Indian consumer fintech founder, ex-Affirm IPO team). Leads pre-seed and seed rounds.",
+      "sectors_of_focus": [
+        "AI applied to financial services back-office workflows",
+        "Reinventing law firms / investment banks / wealth managers from the ground up",
+        "Compliance automation (KYC/AML/regulatory ops) — wants to invest here",
+        "Stable coins as infrastructure (not as standalone businesses)",
+        "Agentic commerce specifically for B2B contexts (inventory triggers, seasonality, customer onboarding)"
+      ],
+      "explicit_passes": [
+        "'AI [Noun]' or '[Verb] AI' companies — calling yourself AI is the new SaaS-naming gimmick",
+        "Standalone stablecoin companies (value accrues to existing payment cos and card networks)",
+        "Consumer agentic commerce above ~$2K thresholds (consumers won't let agents transact for them)",
+        "Founders selling FinTech with same timing assumptions as horizontal SaaS"
+      ],
+      "frameworks": [
+        {
+          "name": "Where does value accrue?",
+          "description": "Core diligence question for any opportunity: does value accrue to startups or to existing players? For stablecoins and agentic commerce, much accrues to Stripe/MasterCard/Visa via acquisitions (Bridge, Beam, Zero Hash, BVNK). Pre-seed investors must ask this before betting."
+        },
+        {
+          "name": "Pre-seed test: problem + insight + thesis",
+          "description": "Pre-seed check: (1) real problem identified, (2) unique insight into why this team can solve it, (3) hypothesis for how. Two questions to answer: why are we the right team, and why is now the right time. Cyclical markets like FinTech demand the latter."
+        },
+        {
+          "name": "Seed test: proof points",
+          "description": "Seed adds proof points to the pre-seed setup — design partners, LOIs, live customers, product usage — and how much was accomplished with how much time/capital."
+        },
+        {
+          "name": "Agents shopping WITH people, not FOR people (consumer)",
+          "description": "Consumer agentic commerce won't be autonomous transactions for large purchases. It'll be agents accompanying users — discovery, price comparison, supplement research. Auto-purchase only works for set-frequency subscribe-and-save items or pre-set trigger-price alerts."
+        },
+        {
+          "name": "Agentic commerce in B2B is the real opportunity",
+          "description": "B2B has set frequencies (inventory restock), seasonality (pre-spike buffers), and onboarding patterns (childcare center auto-buying baby supplies for new customer). Much bigger opportunity than consumer."
+        },
+        {
+          "name": "Stable coins are enabling tech, not the business model",
+          "description": "Stablecoins are one rail. Payment companies should be neutral — pick the best rail for the context. Building a stablecoin-only business loses to multi-rail incumbents."
+        },
+        {
+          "name": "FinTech timeline math",
+          "description": "Generic startup advice doesn't apply in FinTech. Time-to-revenue is longer; regulatory hurdles are higher; trust takes years. But the moats are bigger — Robinhood, Ramp scale once trust compounds. Don't apply horizontal-SaaS impatience."
+        }
+      ],
+      "founder_evaluation": [
+        "Founder-market fit — why are they the right team (lived the problem, internal tool spun out, personal pain, deep buyer relationships)?",
+        "Why now? Especially in cyclical markets like FinTech, founders need a sharp answer.",
+        "Honest investor updates with specific asks — make it dead-easy for investors to help; don't pretend everything is fine.",
+        "Outsiders can win in FinTech now — conviction he rethought in past year.",
+        "Founders who reposition based on market feedback (cited Colji as a 'no first, then yes' lesson)."
+      ],
+      "market_views": [
+        "Every financial product is being rebuilt from the ground up — law firms, IBs, wealth managers — and the truly net-new products come AFTER the rebuild.",
+        "Revenue quality at AI companies may be a hidden problem — reselling other companies' revenue or improperly categorized one-time/services revenue treated as recurring SaaS.",
+        "Best Black Friday metric: highest spend ever AND highest BNPL share ever. Mixed economic signal.",
+        "Regulatory arbitrage isn't a business model — always catches up."
+      ],
+      "contrarian_takes": [
+        "Stop saying AI in your company name or pitch to customers.",
+        "Standalone stablecoin and agentic-commerce companies are misallocated capital — value accrues to existing networks.",
+        "Outsiders CAN win in FinTech (rethought view).",
+        "Financial services will always need people — money is emotional, large transactions involve humans."
+      ],
+      "pet_topics": [
+        "Compliance automation",
+        "B2B agentic commerce patterns",
+        "Where value accrues in payments value chain",
+        "Founder honesty in investor updates"
+      ],
+      "named_companies_and_positions": [
+        "Colji — pre-seed/seed; small-business lending where they realized underwriting a $20K loan the same as a $500K loan is the broken assumption. CTO ex-self-driving AI/ML, co-founder ex-Vero/Amex credit risk.",
+        "Stripe / Bridge, Modern Treasury / Beam, MasterCard / Zero Hash, BVNK acquisitions — proof that stablecoin value accrues to incumbents"
+      ],
+      "quotable_positions": [
+        "Just drop AI from your company names at the same time. Like, no one will notice.",
+        "Stablecoins are enabling technology, not the product in and of themselves.",
+        "Regulatory arbitrage is not a business model.",
+        "Financial services need people.",
+        "Anyone who's witnessed a company go from zero to IPO knows every day something goes horribly wrong — be honest with your investors."
+      ]
+    },
+    {
+      "id": "av_mantis",
+      "name": "Gaurav Bhogale",
+      "firm": "Mantis Fund (Chainsmokers)",
+      "role": "Investor",
+      "stage": [
+        "pre-seed",
+        "seed",
+        "Series A",
+        "occasional Series B"
+      ],
+      "check_size_notes": "Fund III, $105M. Doesn't lead — only follows. Most collaborative co-investor.",
+      "firm_thesis": "Co-founded by The Chainsmokers in 2019. Enterprise-software-focused, follow-on only (very co-investment-friendly). Uses the Chainsmokers' social capital for hiring and customer intros. Small team — 6 investors + Steve on platform.",
+      "sectors_of_focus": [
+        "Built world (construction, AEC, data center procurement) — largest underdigitized GDP share",
+        "Vertical AI with deep domain context",
+        "Sales tax compliance and back-office FinTech",
+        "Data centers and energy infrastructure",
+        "Cybersecurity (Chainguard portfolio)"
+      ],
+      "explicit_passes": [
+        "Pure horizontal AI plays without context moat",
+        "Founders asking broad asks like 'help with GTM' rather than specific high-leverage asks"
+      ],
+      "frameworks": [
+        {
+          "name": "Value-of-model collapses; context becomes the moat (Joe Floyd)",
+          "description": "Model layer is commoditized. Defensibility comes from being embedded in workflows + ERPs, scraping years of structured/unstructured data within an enterprise. That context plus a model is the moat — something OpenAI can't scrape from the open web."
+        },
+        {
+          "name": "Default workflow → system of record",
+          "description": "Three-stage moat: (1) replace existing workflow with a 10x better UX (cited Kaya cutting 60-hour spreadsheet weeks to 2 hours), (2) accumulate data under management, (3) become the system of record over time — pricing power, upstream/downstream extension."
+        },
+        {
+          "name": "Specific high-leverage asks",
+          "description": "Founder evaluation lens — when they ask for help, how specific is the ask? 'Intro to X CISO to test Y hypothesis' shows depth and what you've already AB-tested. 'Help with GTM' tells him nothing."
+        },
+        {
+          "name": "Operational empathy from operator background",
+          "description": "He brings ex-operator experience — knows that 'hire a VP of Sales' means writing a JD, canvassing networks, setting comp/targets, building under that VP. VCs without operator experience underweight friction."
+        }
+      ],
+      "founder_evaluation": [
+        "Founder-product fit and founder-market fit — why does it have to be them?",
+        "Earned wisdom from years in a domain that someone can't replicate tomorrow.",
+        "Specific high-leverage asks (a signal of self-knowledge).",
+        "Micromanagement in early days as a GREEN flag — taste and texture can't be taught, delegation can. The first 5-20 hires set the next 100."
+      ],
+      "market_views": [
+        "Services-software and outcomes-based pricing models arriving faster than expected (18-24 months). SaaS multiples will compress for those not adapting.",
+        "AI wrappers are durable when paired with right UX + workflows + proprietary context (rethought from skepticism).",
+        "Pilot fatigue: too many AI pilots inside enterprises; reckoning coming in 2026 with churn.",
+        "Built world is NOT consensus — most firms won't touch it; many sub-niches are deep multi-trillion-dollar markets.",
+        "Data centers in space is the next frontier."
+      ],
+      "contrarian_takes": [
+        "Micromanagement is a green flag in early-stage founders.",
+        "AI wrappers ARE durable with the right context layers.",
+        "Built world is still under-invested (most firms won't touch it).",
+        "Pilot fatigue is being underpriced as a 2026 risk."
+      ],
+      "pet_topics": [
+        "Built world / construction tech (Kaya, etc.)",
+        "Context-as-moat in vertical AI",
+        "Pilot fatigue and outcome pricing",
+        "Data centers in space"
+      ],
+      "named_companies_and_positions": [
+        "Numeral (Sam Ross) — sales tax compliance; founder ran e-commerce jewelry biz, hit by tax nexuses, built solution",
+        "Kaya AI — procurement workflows for general contractors (data center construction, Suffolk, Eaton, Yates as POCs). Cut 60-hour spreadsheet weeks to 2 hours.",
+        "Factory, Chainguard, Rogo, Stack Blitz — Mantis portfolio"
+      ],
+      "quotable_positions": [
+        "Model becomes commoditized; context becomes the moat.",
+        "You really can't teach taste, you can't teach texture.",
+        "Pilot fatigue is massive — reckoning coming in 2026.",
+        "Built world is the largest portion of GDP still digitizing."
+      ]
+    },
+    {
+      "id": "daniel_sierra",
+      "name": "Daniel Paredes",
+      "firm": "Sierra Ventures",
+      "role": "Investor",
+      "stage": [
+        "pre-seed",
+        "seed",
+        "Series A"
+      ],
+      "check_size_notes": "Fund 13, $270M. Enterprise software + deep tech focus.",
+      "firm_thesis": "Sierra has been around since 1982 (notable for Intuit Series A in 1992). Enterprise software + deep tech. CXO network is the platform. Investors are mostly former operators/founders (Tim is two-time exited founder with $3B exit).",
+      "sectors_of_focus": [
+        "Embodied AI (humanoids + Jarvis-like personal assistants)",
+        "World models (early — current 'GPT-2 moment') for robotics, autonomous, content",
+        "Voice AI and small/edge models",
+        "AI-native hardware (when/whatever Apple/OpenAI ship)",
+        "Vertical robotics use cases that get to deployment fast",
+        "Latino-led / underrepresented founders"
+      ],
+      "explicit_passes": [
+        "Horizontal robotics models — too slow to production",
+        "Cybersecurity from US investor perspective (talent + ecosystem outside US)",
+        "Companies where traction is masking underlying problems ('traction is deodorant')"
+      ],
+      "frameworks": [
+        {
+          "name": "Horizontal vs vertical robotics",
+          "description": "Horizontal foundational robotics models (PI, Skild) follow the LLM analogy but data is too sparse and too slow to ship. Sierra now prefers hyper-focused vertical robotics use cases that can deploy fast, capture domain-specific data, feed the flywheel."
+        },
+        {
+          "name": "World models as the missing causality layer",
+          "description": "LLMs are bounded by text understanding. VLMs add sight. But none have causality (e.g., coin-flip probability from simulation). World models — physics simulations — are what robotics needs to bridge the last mile."
+        },
+        {
+          "name": "Traction is deodorant",
+          "description": "Revenue and traction can mask real problems in what you're building. Sierra focuses on 'why' over 'how much' — how did you get in front of this customer, was there a bake-off, why were they excited?"
+        },
+        {
+          "name": "Performative-founder red flag (green flag if reversed)",
+          "description": "Bluntness, telling you why a competing VC passed, honesty about flaws — these are green flags. Founders showing 'who they actually are' vs 'who they want you to think they are.'"
+        },
+        {
+          "name": "Best deal flow = right rooms, not proprietary sources",
+          "description": "'No proprietary deal flow.' Spending time in pockets of pre-founder builders (lab researchers, PhD programs, exited founders) and being a friend before they're a founder. Compounding referrals follow."
+        }
+      ],
+      "founder_evaluation": [
+        "Bluntness and non-performative honesty.",
+        "Conviction on a person can outweigh missing CTO or revenue.",
+        "Why this customer was excited — not the dollar amount."
+      ],
+      "market_views": [
+        "Consumer behavior is shifting under AI (search shifts to LLMs, voice to computer interfaces) but consumer is being underpriced. No AI-native social media yet.",
+        "Cybersecurity is unattractive for US investors — best talent in Israel, ecosystem outside US.",
+        "Five years out: most knowledge workers become supervisors of agents; AI-native hardware reshapes phone-level interactions.",
+        "K-shape economy concern — capital concentrates and access disparities compound."
+      ],
+      "contrarian_takes": [
+        "Horizontal robotics models won't work in useful time frames.",
+        "US investors are structurally disadvantaged in cybersecurity at seed.",
+        "Consumer is the most under-attended segment in 2026.",
+        "No proprietary deal flow — it's just the right rooms and friendship."
+      ],
+      "pet_topics": [
+        "World models for robotics",
+        "Vertical robotics deployment",
+        "AI-native hardware and consumer behavior",
+        "Latino/underrepresented founder ecosystems"
+      ],
+      "named_companies_and_positions": [
+        "Eudia — AI for legal, Fortune 500 air-gap models, considering PE roll-up strategy",
+        "Smallest AI — voice AI on small models for edge use cases",
+        "Physical Intelligence, Skild — referenced as horizontal robotics he's now less bullish on"
+      ],
+      "quotable_positions": [
+        "Traction can be like deodorant — it can mask problems.",
+        "There's no proprietary deal flow.",
+        "Horizontal robotics models won't work; the winners are hyper-focused vertical deployments.",
+        "Consumer is the risk most of venture is sleepwalking past."
+      ]
+    },
+    {
+      "id": "kate_meacham_bullpen",
+      "name": "Kate Meacham",
+      "firm": "Bullpen Capital",
+      "role": "Investor",
+      "stage": [
+        "seed",
+        "Series A",
+        "post-seed/messy-middle"
+      ],
+      "check_size_notes": "Seed through Series A, generalist. ~15-year-old firm, three founding partners with operator/legal backgrounds.",
+      "firm_thesis": "Generalist firm that wins by going deep on overlooked/controversial categories before the regulatory or cultural path is fully open. Notable: first US investors in FanDuel. Partner DNA is operator-founders (Paul Martino founded 9-10 companies).",
+      "sectors_of_focus": [
+        "Sports betting, gaming, prediction markets, lottery (huge under-innovated market — bigger than books + movies + film combined)",
+        "FinTech infrastructure for blocked/regulated transactions (Edge for gaming deposits)",
+        "Religious communities (overlooked by SV, underpins community values and behavior)",
+        "Vice and anti-vice categories — willingness to underwrite controversy",
+        "Consumer healthcare — care navigation, personalization, eliminating burden",
+        "Hyper-engaged audiences wherever they cluster (Quinn — women's audio erotica)"
+      ],
+      "explicit_passes": [
+        "Founders over-reliant on historical traction who spend too heavily on CAC",
+        "Generic AI/agentic infrastructure plays (not Bullpen's thesis)",
+        "Companies without strong founder-market fit and audience-resonant brand"
+      ],
+      "frameworks": [
+        {
+          "name": "Brand from week one",
+          "description": "Marketing used to be a year-in concern; now it's table stakes from week one. Product is faster to spin up than ever via vibe-coding. Brand and voice can't be baked in later — they must be early DNA. Best founders build brand that resonates with the audience BEFORE the audience touches the product."
+        },
+        {
+          "name": "Capital-efficient growth at the messy middle",
+          "description": "At post-seed/pre-A (her sweet spot), the dividing line is founders who balance early PMF with disciplined CAC — scrappy channels, micro-influencers, organic community — vs. founders who throw money at growth and can never bring CAC back down. Once you're chasing customers, you're always chasing."
+        },
+        {
+          "name": "Underwriting before the path is paved",
+          "description": "Sports betting investing started because the regulatory pathway wasn't there yet. The deepest Bullpen returns come from looking at categories others can't underwrite — vice, religion, prediction markets, lottery — where conviction must precede consensus."
+        },
+        {
+          "name": "Founder expertise + audience tie matters more than category",
+          "description": "The Multibook investment (Matt and Ben's second company after Octane AI) was conviction in the team's AI expertise, not the category. 'Founder expertise in their own space' is the through-line. Everyone needs to be an AI expert now, but it's the depth in their audience and domain that differentiates."
+        },
+        {
+          "name": "PMF timeline has collapsed",
+          "description": "Time to PMF used to be 1-2 years; now can be 6 months. Founders who do early go-to-market experimentation in those first months accelerate dramatically. The advantage is speed of customer-feedback iteration, not capital."
+        }
+      ],
+      "founder_evaluation": [
+        "Founder-market fit anchored in personal experience with the audience.",
+        "Brand and audience-resonant voice as the very first signal.",
+        "Honest about timelines + willing to grab a meal in person — direct interaction is a green flag.",
+        "Willingness to ask hard questions BACK to the investor about how they'll help (go-to-market, hiring, regulatory)."
+      ],
+      "market_views": [
+        "Time to PMF has collapsed to ~6 months in some categories; experimentation in those first months is the differentiator.",
+        "Lean into controversial categories (vice or anti-vice) — that's where the white space lives.",
+        "Consumer healthcare debt is at an all-time high — generational companies will be built fixing this.",
+        "Identity, purpose, and personal-expression categories are about to expand as AI frees up time and people rethink what they spend it on."
+      ],
+      "contrarian_takes": [
+        "Lean into vice or anti-vice (religion) — both are overlooked by Silicon Valley.",
+        "Sports betting/gaming/lottery infrastructure is still wide open at the financial and game-distribution layers.",
+        "Founders should push their VCs with hard questions BEFORE the term sheet — that's how you find a real partner.",
+        "Brand IS the product strategy at week one in the AI era."
+      ],
+      "pet_topics": [
+        "Religious community products",
+        "Lottery and prediction markets",
+        "Hyper-engaged niche audiences (Quinn, gaming fandoms)",
+        "Consumer healthcare",
+        "AI agents needing their own financial infrastructure"
+      ],
+      "named_companies_and_positions": [
+        "FanDuel — first US investors in",
+        "Splitwise, Arrow — FinTech",
+        "Quinn — women's audio erotica, working with Heated Rivalry stars",
+        "Edge — financial platform for gaming users (gaming transactions blocked by traditional banks)",
+        "Jackpocket — first to digitize lottery tickets",
+        "EQL Games — expanding game types states can distribute via lottery",
+        "Multibook — invested in Matt and Ben (their second company; first was Octane AI, then Theory Forge VC fund)"
+      ],
+      "quotable_positions": [
+        "It's important to lean into controversial areas, whether that's vice or anti-vice.",
+        "Brand is something you can't bake in later.",
+        "Time to product-market fit can look even like six months now.",
+        "The best founders should be asking their potential investors the hard questions about how they can be thoughtful partners.",
+        "Once you start spending heavily on CAC, you're always chasing the next set of customers."
+      ]
+    },
+    {
+      "id": "dez_fleming_firstmark",
+      "name": "Dez Fleming",
+      "firm": "FirstMark",
+      "role": "Principal",
+      "stage": [
+        "seed",
+        "Series A"
+      ],
+      "check_size_notes": "Seed and Series A. NYC-based, also covers Europe-to-US expansion.",
+      "firm_thesis": "Early-stage seed/Series A fund. NYC HQ with a dedicated practice for Europe-based founders expanding to NYC. Dez specifically covers FinTech and vertical SaaS.",
+      "sectors_of_focus": [
+        "Systems of action (AI-native apps that DO work, not just record/display data)",
+        "AI-native services and full-stack vertical AI businesses",
+        "Voice/email/text-native B2B (no-login apps that automate communication)",
+        "FinTech and vertical SaaS",
+        "Robotics (peripheral — admires Physical Intelligence, Sunday Robotics)",
+        "Space and downstream commercial space opportunities"
+      ],
+      "explicit_passes": [
+        "Pure systems-of-record SaaS playbook (2000-2022 playbook is over)",
+        "Pure outcome-based pricing for AI agents (too hard to measure, too many variables)",
+        "Companies imitating others without owning the end customer"
+      ],
+      "frameworks": [
+        {
+          "name": "Systems of record → systems of action",
+          "description": "From 2000-2022 the application-software playbook (Salesforce → Veeva → Toast/Procore/ServiceTitan) was about capturing and displaying data. The new playbook is about completing actions on the user's behalf — intelligence layer on top of LLMs, connected to your CRM/ERP/email, semi-supervised or fully autonomous. We're in year ~2001 of a new 20-year cycle."
+        },
+        {
+          "name": "Three AI-native business types",
+          "description": "(1) Systems of action / assistants and co-pilots (Harvey, Aro). (2) Outsourced services for a defined scope of work (Henry AI for commercial real estate broker opinions of value). (3) Full-stack AI-native services (Crosby in legal, OffDeal in lower-middle-market IB). The third is rarest and most defensible."
+        },
+        {
+          "name": "AI margins look like FinTech, not SaaS",
+          "description": "Don't expect 80% SaaS gross margins. AI businesses will look more like payments/FinTech — 50-60% margins, usage-based, less predictable revenue. Founders shouldn't fully rotate to outcome-based pricing yet (too hard to measure), but they should expect SaaS comparables to mislead VCs."
+        },
+        {
+          "name": "Inference-per-user as the new metric",
+          "description": "Replace ARR-only thinking. Watch raw inference per user per month, the complexity of that usage, and whether the line grows or decays per cohort. That's the real engagement signal in AI."
+        },
+        {
+          "name": "Owning the customer is the only moat",
+          "description": "The gradient from systems-of-action → outsourced services → full-stack services is just 'how much of the customer's end-to-end workflow do you own.' If you only do marketing assets for Rho, you get a slice. If you do banking + everything around it, you get the whole pie."
+        },
+        {
+          "name": "Last mile + trust through lived experience",
+          "description": "For the last-mile of AI value delivery, the founders who win are those who lived the customer experience. Selling agricultural products to farmers from Manhattan doesn't work. There's always a Salesforce/HubSpot dynamic (enterprise vs SMB) in every category."
+        },
+        {
+          "name": "Mission attracts talent (purpose pricing)",
+          "description": "What you choose to work on influences the quality of people you attract. 'Space drug-trial centers' attracts different people than 'email automation for SMBs.' Smart people want hard problems with mission."
+        }
+      ],
+      "founder_evaluation": [
+        "Lived the customer experience — can speak the buyer's language and earn trust.",
+        "Open mind / child's mind — don't ossify around beliefs given how fast the market moves.",
+        "Mission-aligned ambition that attracts elite talent.",
+        "Founders who deliver value through hybrid software+services execution rather than purely seat-based SaaS."
+      ],
+      "market_views": [
+        "Application software's 20-year-cycle just restarted (2025 is like ~2001 for systems of action).",
+        "Two players win per category — one for enterprise (Cravath-style), one for SMB / in-house counsel — separated by workflow and GTM, not by tech.",
+        "Inflated seed/A pricing ($6-9M seeds, A's at $80-150M post) is a sin-of-omission tension. Vintages 2023-2026 will still be very good, but bad pricing = bad outcomes.",
+        "Services businesses CAN be venture-scale in this era. Most investors disagree.",
+        "Robotics + space are the next two areas of asymmetry; capital is converging fast on robotics."
+      ],
+      "contrarian_takes": [
+        "Services businesses can be excellent venture outcomes if they integrate software and own the customer fully.",
+        "ARR is not the right metric for AI businesses; inference-per-user is.",
+        "AI gross margins will settle at 50-60% (FinTech-like), not 80-90% (SaaS-like).",
+        "Pricing still matters — the biggest sleepwalking risk in venture today."
+      ],
+      "pet_topics": [
+        "Systems of action thesis",
+        "Full-stack AI-native services",
+        "Owning the customer end-to-end",
+        "Robotics + space as next asymmetry frontiers"
+      ],
+      "named_companies_and_positions": [
+        "Harvey, Aro — systems of action / co-pilots in legal and financial services",
+        "Henry AI — outsourced AI service for commercial RE broker opinions of value",
+        "Crosby — full-stack AI-native legal services",
+        "OffDeal — full-stack AI-native investment banking for lower-middle-market SMBs",
+        "Pilot — example of an accounting business that got stuck too reliant on humans (pre-2022 limitation)",
+        "Physical Intelligence, Sunday Robotics — admires from afar"
+      ],
+      "quotable_positions": [
+        "I think we might be in like the year 2001, right now, in this period of application software.",
+        "All that matters is owning the customer.",
+        "AI businesses aren't going to be terminal 80% gross margin businesses. I think they're going to be more 50, 60% — like FinTech platforms.",
+        "Services businesses can be good businesses — most investors would call that stupid and dumb.",
+        "Smart people want to do hard things."
+      ]
+    },
+    {
+      "id": "denise_teng_gradient",
+      "name": "Denise Teng",
+      "firm": "Gradient Ventures",
+      "role": "Partner",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_notes": "Pre-seed and seed only. SF-based, lead-investor preference.",
+      "firm_thesis": "B2B AI-focused fund, day-one AI thesis. Small team, prefers to lead. Heavy post-investment platform support (hiring, GTM, sales pipeline review, comp structure, dev community events).",
+      "sectors_of_focus": [
+        "B2B AI applications and infrastructure",
+        "Agents (with view that they're still 2 years out from solving complex white-collar workflows)",
+        "Vertical agents in regulated industries (finance, healthcare, logistics)",
+        "Developer tools with bottom-up adoption motion",
+        "AI orchestration frameworks (JavaScript/TypeScript-native, not Python)"
+      ],
+      "explicit_passes": [
+        "Generic horizontal agent plays without verticalization in regulated industries",
+        "Founders who do customer discovery only via conversation without bringing prototypes",
+        "RAG-only implementations as a default architecture (her conviction-rethought this year)"
+      ],
+      "frameworks": [
+        {
+          "name": "PM-style diligence",
+          "description": "Brings product-manager skill set to diligence — finding PMF, validating use cases, competitive analysis to find the wedge. Treats founder pitches like product discovery."
+        },
+        {
+          "name": "Fast iteration as the founder signal",
+          "description": "What separates good from great founders now is fast iteration using AI-native tools — visualizing ideas into production-runnable prototypes and putting them in front of customers for feedback, not just having conversations. AI tooling has 10x'd available data; founders who don't use it are leaving signal on the table."
+        },
+        {
+          "name": "Both horizontal AND vertical agents will exist",
+          "description": "Horizontal agents (Claude, computer-use) handle 80% of productivity tasks. Vertical agents win where regulation, data sensitivity, security, or domain-specific data integration matters — healthcare, finance (Range as financial advisor agent), logistics. Technical capabilities commoditize; the boring integration/regulation work becomes the moat."
+        },
+        {
+          "name": "Enterprise sales: build trust + understand internal OKRs",
+          "description": "Successful enterprise founders do two things: (1) build genuine trust through in-person interaction with the right authority-holding sponsor, and (2) understand the department's top-of-mind OKRs and budgets for the next two quarters, then position their product against those. Operating like an STM scientist of org dynamics."
+        },
+        {
+          "name": "GTM motion depends on category",
+          "description": "Traditional SaaS / agents → CEO must close first 10 deals personally before Series A. Dev tools → DON'T hire enterprise sales day-one; focus on developer experience and bottom-up adoption to 300K active users first."
+        }
+      ],
+      "founder_evaluation": [
+        "Speed of iteration — going from idea to runnable prototype to customer feedback fast.",
+        "Builds prototypes for customer conversations rather than relying on talking points alone.",
+        "For enterprise: navigates org dynamics, knows OKRs, builds genuine trust.",
+        "ADHD-ish multi-topic execution within short timeframes (green flag in disguise)."
+      ],
+      "market_views": [
+        "Agents are NOT ready for fully complex white-collar workflow replacement this year — give it 2 more years. Data isn't ready yet.",
+        "RAG died down quickly as a default — she's rethought this conviction.",
+        "Multimodal agent interfaces (voice, avatar, video) will unlock 10x more use cases as latency improves.",
+        "AI-talent shortage is the underpriced risk — should invest in education infrastructure to grow the talent pool. AGI is bottlenecked by talent."
+      ],
+      "contrarian_takes": [
+        "Agents will not solve complex workflows fully this year — 2 more years needed.",
+        "AI talent shortage is the real bottleneck to AGI, not compute.",
+        "Verticalized agents will win in regulated industries even when horizontal models commoditize.",
+        "VCs are MORE technical than founders give them credit for now — many learn tooling daily."
+      ],
+      "pet_topics": [
+        "Verticalized agents in regulated industries",
+        "Agent orchestration in JavaScript/TypeScript",
+        "Education infrastructure for AI talent",
+        "Multimodal agent interfaces"
+      ],
+      "named_companies_and_positions": [
+        "Mara — AI orchestration framework for JavaScript/TypeScript (Gradient portfolio)",
+        "Range — vertical financial advisor agent (Gradient portfolio)",
+        "Truth Systems — sells to highly technical, sophisticated/skeptical buyers (Gradient portfolio)"
+      ],
+      "quotable_positions": [
+        "Agents will still not be fully ready for complex tasks this year. We need another two years.",
+        "AI talent is the core blocker for us to enter AGI.",
+        "Fast iteration is what separates good founders from amazing ones.",
+        "RAG seems to have died down."
+      ]
+    },
+    {
+      "id": "kj_sidberry_gv",
+      "name": "KJ Sidberry",
+      "firm": "Google Ventures (GV)",
+      "role": "Partner",
+      "stage": [
+        "multi-stage"
+      ],
+      "check_size_notes": "$10B+ AUM, ~50 new logos a year, deploys upwards of $1B/year. Multi-stage global (North America, Europe, Israel).",
+      "firm_thesis": "Multi-stage global institution championing innovative founders building generational companies. KJ focuses predominantly on consumer.",
+      "sectors_of_focus": [
+        "Consumer AI (his main focus)",
+        "Memory and context layers as deep moats (beyond shallow RAG)",
+        "Consumer healthcare and personalized care",
+        "Education (especially AI-native personal tutoring and edtech)",
+        "Therapy and mental health (verticalized, hybrid AI + human-in-loop)",
+        "Consumer/B2B hybrid models (consumer demand reinforcing B2B infrastructure)"
+      ],
+      "explicit_passes": [
+        "Companies optimizing ARR while ignoring underlying quality and stickiness",
+        "Companies favoring 'lip service that performs well on LinkedIn' over true customer-value delivery",
+        "Founders confusing speed with velocity (no direction = no real momentum)"
+      ],
+      "frameworks": [
+        {
+          "name": "Democratized execution reinforces ideas",
+          "description": "Old adage: ideas are cheap, execution is everything. With vibe-coding, execution is democratized — so having a strategic point of view (the idea) matters MORE than ever in consumer AI."
+        },
+        {
+          "name": "Memory and context as the next moat",
+          "description": "Capabilities outpace adoption. Memory and contextual depth (beyond surface-level RAG) is where durable consumer value will live in the next cycles. Need to emulate the human dimensionality of which contextual data points matter and how they surface."
+        },
+        {
+          "name": "Niche ≠ small (market sizing is wrong)",
+          "description": "People assume niche = small. Quality teams expand markets (Uber surpassed the taxicab market it was benchmarked against). Market sizing is a second-layer consideration behind team quality."
+        },
+        {
+          "name": "Minimum viable capital",
+          "description": "For applied AI and consumer especially, businesses are more capital-efficient than ever. Don't absorb heaping capital — raise the minimum needed to prove hypothesis plus buffer. Constraint creates lock-in to value-creating activities; excess capital does more harm than good."
+        },
+        {
+          "name": "Speed vs velocity",
+          "description": "Founders confuse speed (ramps, ARR numbers in 6 months) with velocity (speed PLUS direction). Velocity means knowing where the puck is going. Speed without direction creates LinkedIn-friendly numbers and underperforming businesses."
+        },
+        {
+          "name": "Rate of learning as the real momentum metric",
+          "description": "Track founder/product velocity by: (a) customer reports that the product is meaningfully different month-over-month, (b) product shipping speed AND quality, (c) founder humility about decisions reflected on and re-enacted quickly. Compounding momentum from learning is the moat."
+        },
+        {
+          "name": "Two winning founder archetypes",
+          "description": "Old-era SaaS winners were technical engineers building what no one else could. New-era winners are either: (a) experienced operators with vertical-specific unique insight, OR (b) AI architects who orchestrate fragmented AI components into a coherent machine. Justin Silver/Kinetic-style 'philosopher-founders' increasingly viable."
+        },
+        {
+          "name": "Strong opinions, weakly held + crystallized North Star",
+          "description": "Want founders with a divisive North Star + willingness to flex tactically. Hubris-adjacent strength as a green flag. Truth-seeking debate over deference."
+        }
+      ],
+      "founder_evaluation": [
+        "Crystallized strong perspective on the future — divisive North Star.",
+        "Strong opinions, weakly held — flex tactically as data emerges.",
+        "High rate of learning, visible in product velocity AND customer testimonials.",
+        "Honesty about what's not working under the hood (vs LinkedIn-projected dominance)."
+      ],
+      "market_views": [
+        "AI is in a TOUGH place — capabilities far outpace adoption. Only ~1/3 of Americans have touched ChatGPT. Only ~25% view AI favorably (per recent NBC survey). Mobile/web didn't carry this anxiety baggage.",
+        "Crowded/overfunded AI wedges: productivity tools for enterprise (customer service, codegen, back office). Quieter under-loved category: education and personalized learning at AI-enabled cost structures.",
+        "Therapy and consumer healthcare can be reimagined from emergency-triage to proactive-personalized through AI + human-in-loop hybrids.",
+        "Consumer/B2B lines are blurring — consumer products generate the technical infrastructure that becomes B2B sellable. Compounding both sides simultaneously is newly possible.",
+        "AI cost curve depresses the cost side of cost-benefit analysis — re-orient toward needle-moving benefit only."
+      ],
+      "contrarian_takes": [
+        "AI is actually in a tough place — capabilities outpacing adoption is real.",
+        "Education is slept on after years of bad edtech outcomes — AI changes the unit economics of personalized tutoring.",
+        "Most founders today confuse speed for velocity.",
+        "Capital deployment inflation is the next 2021 — beware founders raising heaping rounds when minimum viable capital is enough.",
+        "$100M seed rounds are a significant under-discussed risk."
+      ],
+      "pet_topics": [
+        "Memory and context layer as moats",
+        "Education + personalized tutoring",
+        "Therapy reimagined via AI + human-in-loop",
+        "Consumer/B2B flywheel businesses",
+        "Founder-as-AI-architect vs founder-as-philosopher"
+      ],
+      "named_companies_and_positions": [
+        "Kinetic (Justin Silver) — AI-native incubator, Brooklyn (GV portfolio); cited as philosopher-founder archetype",
+        "Magic Schools, School AI, Brisk — admires in classroom-AI category",
+        "BeFreed, Ohana — direct-to-learner AI education products he's excited about"
+      ],
+      "quotable_positions": [
+        "AI is actually in a tough place — capabilities are far outpacing adoption.",
+        "People are mistaking speed for velocity.",
+        "Minimum viable capital plus a little bit of buffer.",
+        "There's lip service that performs well on LinkedIn versus what's performing well underneath the hood.",
+        "Niche isn't inherently small — really dope teams turn niche markets into something meaningful."
+      ]
+    },
+    {
+      "id": "brian_zhan_stryker",
+      "name": "Brian Zhan",
+      "firm": "Stryker Venture Partners",
+      "role": "Investor",
+      "stage": [
+        "seed / inception"
+      ],
+      "check_size_notes": "Up to $30M at inception (Series-B-sized checks at seed), only 10 companies per fund. Founded ~1 month ago at time of recording.",
+      "firm_thesis": "Unusually bold: $30M concentrated bets at seed stage for only 10 companies per fund. Confidence comes from track record — 1 in 2 of Brian's/Max Gazor's previous investments became unicorns.",
+      "sectors_of_focus": [
+        "AI for science / scientific experimentation (bio, materials, energy, drug discovery)",
+        "Foundation models that unlock big new categories",
+        "Reinforcement learning for agents (cited as 2024 thesis)",
+        "AI for the physical world (chip design, robotics, manufacturing)",
+        "Embodied AI / robotics foundation models"
+      ],
+      "explicit_passes": [
+        "Companies aiming for $150M revenue + IPO scale (target is OpenAI scale only)",
+        "Domains without a clear technical catalyst making it happen NOW",
+        "Pure-data-moat narratives (AI may relabel training data better than humans, undermining human-labeled data moats)"
+      ],
+      "frameworks": [
+        {
+          "name": "Three-pillar investment test",
+          "description": "Every investment must clear: (1) Founder-market fit — irrationally dedicated, irrational boldness, living and breathing the space (Reflection's founders had pioneered DQN, AlphaGo, AlphaZero before applying RL to agents). (2) Trillion-dollar market — OpenAI-scale outcomes only. (3) A specific catalyst making the domain happen now (e.g., MoE scaling for science, RL maturity for agents)."
+        },
+        {
+          "name": "Tech-readiness gate",
+          "description": "The overarching screen: is the tech ready for THIS category? If yes, then which specific subdomain has the catalyst? Example: AI for science yes — but lab automation no (still premature) — AI speeding silico experimentation yes."
+        },
+        {
+          "name": "Big-check concentration thesis",
+          "description": "Average seed is $3-5M. Stryker writes $30M at seed — Series-B-sized checks. Bet: precision at inception beats spray-and-pray. Justified by 1-in-2 unicorn rate on prior portfolio."
+        },
+        {
+          "name": "MoE scaling beyond text/math/code",
+          "description": "MoE architecture trained on text/math/code makes powerful coders but is useless for scientific experimentation. Train decoders to parse scientific experiments and tokenize bio/materials data → foundation models that can do drug discovery, protein folding, materials discovery (AlphaFold as the proof point)."
+        }
+      ],
+      "founder_evaluation": [
+        "Irrational boldness — founders who dream big.",
+        "Domain credibility from PRIOR breakthroughs in the same field (DeepMind RL pioneers building Reflection).",
+        "Living and breathing their space — not new to the problem."
+      ],
+      "market_views": [
+        "The biggest opportunities are NOT in small seed rounds — they're in foundation-model builders unlocking new categories (OpenAI, Anthropic, Reflection, Skild, Periodic Labs).",
+        "AI for science is monetizing in real ways now (Isomorphic Labs revenue partnerships).",
+        "Data moats from human labelers may erode — models could become better labelers than humans, undermining preexisting data assets.",
+        "Continual learning will eventually produce general-purpose agents that obsolete today's vertical agent leaders."
+      ],
+      "contrarian_takes": [
+        "$30M seed checks make sense if the team and category are precise.",
+        "The biggest VC opportunities are in foundation models, not small seeds.",
+        "Human-labeled training data may be a fading moat as AI labelers improve.",
+        "Today's vertical agent winners may be obsoleted by general-purpose agents in 5-10 years."
+      ],
+      "pet_topics": [
+        "AI for scientific discovery",
+        "MoE scaling on non-text modalities",
+        "Robotics foundation models",
+        "Continual learning unlocking general agents"
+      ],
+      "named_companies_and_positions": [
+        "Recursive Intelligence — Stryker investment; AI for chip design, democratizing AlphaChip-style infrastructure",
+        "Skild — robotics foundation models (Brian's 2023 backing)",
+        "Reflection AI — RL-for-agents (Brian's 2024 thesis; founders are DeepMind DQN/AlphaGo/AlphaZero pioneers)",
+        "Periodic Labs — AI for science (Brian's 2025 backing)",
+        "Isomorphic Labs — cited as revenue-scale AI-for-science example"
+      ],
+      "quotable_positions": [
+        "The biggest opportunities are not in the small seed rounds anymore, but in people who are building foundation models that will unlock big categories.",
+        "It is fine to invest big checks up to $30 million at the seed round.",
+        "Founder needs to live and breathe this space. The founder needs to be irrationally dedicated to making this domain happen.",
+        "We're looking for companies that will deliver OpenAI-scale revenue.",
+        "VCs read and think a lot more than founders think we do."
+      ]
+    },
+    {
+      "id": "abbie_outlander",
+      "name": "Abbie Strabala",
+      "firm": "Outlander",
+      "role": "Junior Partner",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_notes": "$100M Fund III. Average check $1.5M, 15% ownership target. Leads pre-seed. Pre-product, pre-revenue is fine.",
+      "firm_thesis": "Generalist pre-seed firm started by Paige Craig (ex-Marine, ex-intelligence community). 18 unicorns to date including Scale AI, Gusto, Postmates, Lyft. Uses a proprietary 20-point founder framework rooted in intelligence-community-style human-centered factor analysis.",
+      "sectors_of_focus": [
+        "Defense (a Fund III theme given GPS / geopolitical timing)",
+        "Manufacturing and supply chain ('unsexy industries')",
+        "Wastewater management and hard, unsexy categories with sticky problems",
+        "Consumer (her bullish bet — personalization, healthcare for aging boomers, agentic everyday-life)",
+        "Picks-and-shovels for nuclear energy (not power plants themselves)",
+        "Reinvented commerce / discovery (not optimization of existing systems)"
+      ],
+      "explicit_passes": [
+        "AI for marketing / vertical MarTech applications (incremental optimization, not transformational)",
+        "Companies optimizing existing systems vs rethinking how consumers interact",
+        "Nuclear power plant builders directly (vs the picks-and-shovels around them)",
+        "Companies without product stickiness in unsexy/regulated categories"
+      ],
+      "frameworks": [
+        {
+          "name": "20-point founder framework (vision, intelligence, character, execution)",
+          "description": "Inherited from Paige Craig's intelligence-community background. Diligence is human-centered factor analysis across four categories — vision, intelligence, character, execution — benchmarking founders to consistent criteria regardless of sector. The framework is the firm's edge over hyper-thesis-driven funds."
+        },
+        {
+          "name": "Speed of execution as the dominant signal",
+          "description": "Her personal anchor inside the 20-point framework. How quickly does a founder go from idea → product → launch → feedback → iterate? Look for a LIFE-LONG pattern of speed, not just startup-context speed."
+        },
+        {
+          "name": "Real problems in unsexy categories",
+          "description": "Prefers hard, sticky, unsexy segments without large tech adoption (wastewater management as the archetypal example) over hyped categories. Product stickiness questions trump distribution-only advantages."
+        },
+        {
+          "name": "Hyper-personalization as the consumer thesis",
+          "description": "Massive consumer data exists across Gmail, social, phone, contacts — yet no one has stitched it into hyper-personalized agentic everyday life (grocery ordering, outfit selection, appointment scheduling, lighting schedules). Major question: will incumbents (Apple, Google, Meta) own this or will new companies?"
+        },
+        {
+          "name": "Argument as a founder green flag",
+          "description": "Will throw out contradictory or 'dumb' takes in conversations to TEST whether the founder holds conviction. Founders who push back and disagree are green-flagged; founders who defer are red-flagged. Investors should be wrong about most things — founders should know more."
+        },
+        {
+          "name": "Close-the-gap learners",
+          "description": "Founders saying 'I don't know' is fine — what matters is whether they're closing the gap between what they don't know and what they do."
+        }
+      ],
+      "founder_evaluation": [
+        "Lifetime pattern of speed of execution.",
+        "Conviction shown through pushback in conversation.",
+        "Honest 'I don't know' paired with a learning posture.",
+        "Showing up in person (her spicy take — too many founders hide behind screens now)."
+      ],
+      "market_views": [
+        "Consumer is the underbet way to play AI right now.",
+        "MarTech AI is incremental, not transformational — billion-dollar businesses possible but not Outlander's lane.",
+        "Hyper-personalization across daily life is a massive open category — integration is the barrier, Apple is lagging.",
+        "Final-third-of-life consumer healthcare is underbuilt — boomers entering retirement are tech-savvy AND wealthy. Care robots, prevention, family proximity tools.",
+        "When AI replaces white-collar work, new mom-and-pop / SMB businesses emerge as the destination for displaced knowledge workers.",
+        "Nuclear cost-per-kilowatt: Korea ~$2,200 vs US ~$6,000. US builds every plant bespoke. Picks-and-shovels companies that drive cost down by standardization win."
+      ],
+      "contrarian_takes": [
+        "Consumer is the underpriced category in 2026.",
+        "AI MarTech is overbuilt — pass on most of it.",
+        "Founders aren't showing up enough in person; the venture ecosystem has fragmented into too-niche echo chambers.",
+        "Picks-and-shovels for nuclear beat building nuclear power plants directly.",
+        "Argue with your investor — VCs who get frustrated are the wrong fit anyway."
+      ],
+      "pet_topics": [
+        "Hyper-personalization across daily life",
+        "Consumer healthcare for aging boomers",
+        "Picks-and-shovels for nuclear energy",
+        "Defense, manufacturing, supply chain",
+        "The future of work post-AI white-collar displacement"
+      ],
+      "named_companies_and_positions": [
+        "Scale AI — Outlander portfolio, Meta acquisition this past summer",
+        "Gusto, Postmates, Lyft — Outlander portfolio (older vintages)"
+      ],
+      "quotable_positions": [
+        "Consumer is the way.",
+        "A founder red flag I love is when you argue with me.",
+        "I don't think founders are putting themselves out there enough.",
+        "Are you trying to close the gap between what you don't know and what you do?",
+        "We have built every nuclear facility here as a bespoke n-of-one. You can't scale that.",
+        "VCs run the exact same fundraising process founders do — just with a different customer profile."
+      ]
+    }
+  ]
+}
